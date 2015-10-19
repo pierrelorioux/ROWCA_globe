@@ -1,0 +1,18 @@
+#background {
+ fill: #e8f9fb;
+ stroke: none;
+},
+#world {
+ fill: #f5f3f2;
+ stroke: none;
+},
+#graticule {
+ stroke-width: 0.3px;
+ stroke: #a0a0a0;
+},
+#rowca {
+ fill: #777777;
+ stroke: #ffffff;
+ stroke-width: 0.5px;
+ stroke-opacity: 0.4;
+}
