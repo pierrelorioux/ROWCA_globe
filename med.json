@@ -1,0 +1,37 @@
+{
+	"proj": {
+	    "id": "ortho",
+	    "lon0": 16,
+	    "lat0": 13
+	},
+	"layers": {
+		"background": {
+    		"special": "sea"
+		},
+	  	"world": {
+	    "src": "ne_50m_admin_0_countries.shp",
+	     "simplify": true
+	    },
+	    "rowca": {
+	    	"src": "ROWCA_COUNTRIES_2015.shp",
+	    	"simplify": true
+	    },
+	    "routes": {
+	    	"src": "migration_routes_fromMissingMigrants.shp",
+	    	"simplify": true
+	    },
+	    "graticule":{ 
+			"special": "graticule", 
+			"latitudes": 15, 
+			"longitudes": 15
+		}
+    },
+	"bounds": {
+		"mode": "bbox",
+		"data": [-180,-90,180,90]
+	 },
+	 "export": {
+   		"width": 850,
+   		"height": 690
+	}
+}
